@@ -10,9 +10,6 @@ playerwins = 0
 #Choices the computer can make
 choices = ["rock", "scissors", "paper"] 
 
-
-
-
 # Repetitive code here, any solutions?
 while True:
 	computer = random.choice(choices) # The generation of the computer's choice 
@@ -48,12 +45,8 @@ while True:
 			print("Your scissors has beaten the computer's paper.")
 			playerwins = playerwins + 1
 			
-			
-			
-			
 	#Prints scores		
 	print("The current score is {} / {} (Computer wins / player wins))".format(cpuwins, playerwins))
-	
 	#Askes user if they want to replay the game
 	replay = input("Would you like to play again? Please enter yes or no.").lower()
 	if replay == "yes":
