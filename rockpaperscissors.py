@@ -16,7 +16,7 @@ choices = ["rock", "scissors", "paper"]
 # Repetitive code here, any solutions?
 while True:
 	computer = random.choice(choices) # The generation of the computer's choice 
-	userchoice = input("Please pick rock, paper, or scissors").lower()
+	userchoice = input("Please pick rock, paper, or scissors").lower() #Asks and stores the users choice 
 	
 	if userchoice == "rock":
 		if computer == "paper":
